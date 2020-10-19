@@ -1,0 +1,78 @@
+h1,h2,h3,h4,h5,h6{
+	font-family:arial;
+	color:#4F4F4F;
+}
+body{
+	font-family:verdana,arial;
+	max-width:900px;
+	margin:auto;
+}
+article{
+	border: 3px solid #808080;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+a{
+	text-decoration:line-through;
+	color:#808080;
+}
+.photo{
+	border: 1px solid #808080;
+	border-radius: 50%;
+}
+
+#title{
+	padding-left: 15px;
+	text-transform:uppercase;
+}
+
+.title-session{
+	padding-left: 15px;
+	text-transform:capitalize;
+}
+.title-post{
+	font-style: italic;
+}
+
+.header-post{
+	
+}
+
+.text-post{
+	padding-bottom: 15px;
+	text-align:justify;
+}
+.image-post{
+	width: 100%;
+	weight:80%;
+}
+.tag{
+	/*por padrão alguns elementos vem com margin*/
+	text-decoration:line-through,underline,overline,;
+	text-transform: capitalize,uppercase,lowercase;
+	font-family:uma,subistituta;
+	fon-size:;
+	font-style: italic;
+	font-weight:bold; /*peso do texto*/
+
+	/*LISTA*/
+	list-style-type: square,upper-roman, '\1F44D';
+	list-style-image: url('caminho');
+
+	/*ALINHAMENTO*/
+	margin:auto; /*ele se adequa ao tamanho da tela dando uma margin igual para os lados*/
+	max-width:900px; /*até 900px, mas se for menor que isso ele vai se adequar*/
+	width:100%; /*100% respeita o elemento que está de fora*/
+	text-align: justify;
+}
+.text-list{
+	list-style-type: none;
+	padding-left:15px;
+}
+
+/*como é um modelo em cascata é possível fazer isso*/
+.text-list li a{
+	text-decoration:none;
+	color:brown;
+}
